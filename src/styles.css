@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blue;
+}
+
+header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 8px double black;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header nav button {
+  width: 100px;
+  height: 40px;
+  background: none;
+  border: none;
+  border-bottom: solid black;
+  font-size: 1.4rem;
+}
+
+header nav button:hover {
+  color: white;
+  border-bottom: solid white;
+}
+
+div p,
+div h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+div p {
+  font-size: 1.2rem;
+}
+div h1 {
+  font-size: 2rem;
+}
+
+img {
+  width: 200px;
+}
